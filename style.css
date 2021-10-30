@@ -1,0 +1,68 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.celular{
+    background-color: black;
+    height: 550px;
+    width: 300px;
+    border-radius: 30px;
+    display: grid;
+    place-items: center;
+}
+
+.tela{
+    width: 250px;
+    height: 480px;
+    background-color: white;
+    overflow-y: auto;
+    
+}
+
+.tela::-webkit-scrollbar{
+    display: none;
+}
+
+header{
+   height: 30px;
+   background-color: rgb(211, 112, 125);
+   width: inherit;
+   text-align: center;
+   font-family: cursive;
+   position: fixed;
+   z-index: 100;
+}
+
+.msg{
+    background-color: slateblue;
+    width: 200px;
+    height: auto;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.msg-recebida{
+    margin-left: 10px;
+    background-color: rgb(190, 129, 231);
+    border-radius: 20px 20px 20px 0px;
+}
+
+.msg-enviada{
+    margin-right: 10px;
+    background-color: rgb(64, 173, 224);
+    border-radius: 20px 20px 20px 0px;
+    position: relative;
+    left: 30px;
+}
+
+.chat{
+    margin-top: 40px;
+}
